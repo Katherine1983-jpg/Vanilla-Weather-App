@@ -11,7 +11,9 @@
 </head>
 <body>
   <div class = "container">
+    <div class="weather-app-wrapper">
     <div class="weather-app">
+      <div class="overview">
 <h1>Bangkok</h1>
 <ul>
   <li>
@@ -21,12 +23,18 @@
     Sunny with clouds
   </li>
 </ul>
+</div>
 <div class ="row">
   <div class="col-6">
+    <div class="clearfix weather-temperature">
     <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
   alt = "Sunny with clouds"
+  class="float-left"
   />
-  30 °C | °F
+  <span class="float-left">
+  <strong>30</strong><span class="units"><a href="#">°C</a> | <a href="#">°F</a></span>
+  </span>  
+</div>
   </div>
   <div class="col-6">
     <ul>
@@ -51,6 +59,7 @@
     <a href="https://github.com/Katherine1983-jpg/Vanilla-Weather-App" target="_blank">Open Source Code </a> by Katherine Simpson
 
   </small>
+  </div>
       </div>
   <script src="src/app.js"></script>
   
