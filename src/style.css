@@ -24,6 +24,11 @@ li {
   line-height: 16px;
   list-style: none;
 }
+
+li.first-letter {
+  text-transform: capitalize;
+}
+
 .weather-app-wrapper {
   max-width: 600px;
   margin: 30px auto;
@@ -33,6 +38,11 @@ li {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 8px;
+  background: radial-gradient(
+    circle at 0% 0.5%,
+    rgb(241, 241, 242) 0.1%,
+    rgb(224, 226, 228) 100.2%
+  );
 }
 
 .overview {
