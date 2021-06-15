@@ -16,7 +16,7 @@ h1 {
 
 ul {
   margin: 0;
-  padding: 0;
+  padding: 0px;
 }
 
 li {
@@ -37,8 +37,8 @@ li:first-letter {
 }
 
 .weather-app {
-  padding: 20px;
-  border: 1px solid #dadde1;
+  padding: 15px;
+  border: 2px solid #dadde1;
   border-radius: 8px;
   background: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
 }
@@ -64,12 +64,6 @@ li:first-letter {
   position: relative;
   font-size: 14px;
   top: -25px;
-}
-
-.weather-temperature .active {
-  color: rgb(112, 117, 122);
-  cursor: default;
-  text-decoration: none;
 }
 
 .weather-forecast {
