@@ -1,5 +1,7 @@
 body {
-  font-family: "Google Sans", arial, sans-serif;
+  font-family: "Quicksand", sans-serif;
+  background-image: url("../foggy-road.jpg");
+  background-size: cover;
 }
 
 h1 {
